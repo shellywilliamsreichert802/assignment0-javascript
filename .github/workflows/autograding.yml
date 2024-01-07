@@ -11,8 +11,9 @@ $ npm test
 
     expect(received).toBe(expected) // Object.is equality 
 
-    Expected: "Hello world!"
-    Received: "\"Hello world!\""
+    Expected: "Hello world!";
+    
+    Received: "Hello world!"
 
       2 |
       3 | test('Checking to see if the test outputs the correct message..', () => {
